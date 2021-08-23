@@ -5,6 +5,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <script 
+            async 
+            src={`https://www.googleoptimize.com/optimize.js?id=OPT-NQJXHDJ`} 
+          />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
@@ -17,6 +21,7 @@ export default class MyDocument extends Document {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-QSV8VPLV71', {
+              page_path: window.location.pathname,
               'optimize_id': 'OPT-NQJXHDJ'
             });
           `,
