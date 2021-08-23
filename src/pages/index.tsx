@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { BoxLaunchs, Launch } from './home'
+import { BoxLaunchs, Launch } from '../styles/home'
 import { format } from 'date-fns'
 
 interface LaunchProps {
