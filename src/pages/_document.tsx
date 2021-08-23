@@ -17,7 +17,6 @@ export default class MyDocument extends Document {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-QSV8VPLV71', {
-              page_path: window.location.pathname,
               'optimize_id': 'OPT-NQJXHDJ'
             });
           `,
